@@ -10,12 +10,23 @@ Em Andamento
 - Visual Studio
 
 ## Controles do Jogo
-- **Combate:** Utilização de armas, magias e habilidades especiais para derrotar inimigos variados e chefes poderosos.
-- **Exploração:** Navegação em ambientes vastos e diversificados, descobrindo segredos ocultos e tesouros escondidos.
-- **Resolução de Enigmas:** Interagir com o ambiente e resolver quebra-cabeças para avançar na história e desbloquear áreas secretas.
-- **Progressão de Personagem:** Adquirir experiência, habilidades e equipamentos para fortalecer o herói ao longo da jornada.
-- **Customização:** Personalizar o visual e as habilidades do personagem para se adaptar ao estilo de jogo preferido.
-- **Evolução do Enredo:** Tomar decisões que afetam o desenrolar da história e o destino dos reinos nórdicos.
+- **Combate:** Armas, magias e habilidades especiais para derrotar inimigos variados e chefes poderosos.
+- **Exploração:** Ambientes vastos e diversificados, descobrindo segredos ocultos e tesouros escondidos.
+- **Resolução de Enigmas:** Interagir com o ambiente e quebra-cabeças para avançar na história e desbloquear áreas secretas.
+- **Progressão de Personagem:** Experiência, habilidades e equipamentos para fortalecer o herói ao longo da jornada.
+- **Customização:** Personalização das habilidades do personagem para se adaptar ao estilo de jogo preferido.
+- **Evolução do Enredo:** Decisões que afetam o desenrolar da história e o destino dos reinos nórdicos.
+
+## funcionalidades a serem implementadas
+
+- **Pontuação e Rankings:** Competir por pontuações altas e posições de destaque nos placares de jogadores.
+- **Itens e Equipamentos:** Armas, armaduras e itens mágicos para fortalecer o herói.
+- **Habilidades Especiais:** Habilidades únicas para personalizar o estilo de combate.
+- **Inventário:** Itens e recursos encontrados durante a jornada.
+- **Recompensas e Conquistas:** Obter habilidades e recompensas especiais por completar desafios e alcançar marcos importantes na jornada.
+
+
+
 
 ## Jogue Online
 Em Andamento
