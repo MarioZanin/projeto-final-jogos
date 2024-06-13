@@ -3,6 +3,7 @@ O jogo "Asgard – Panteão dos Deuses" é um jogo de ação e aventura ambienta
 
 ## Progresso
 Em Andamento
+Foram criados os códigos em script e .css para interação dos personagens
 
 ## Tecnologias e IDE Utilizadas
 - Unity
