@@ -11,7 +11,6 @@ public class PlayerLife : MonoBehaviour
     {
 
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -29,11 +28,25 @@ public class PlayerLife : MonoBehaviour
             gameObject.GetComponent<Player>().enabled = false;
             gameObject.GetComponent<Animator>().SetBool("Jump", false);
             GameController.gc.SetLives(-1);
-            Invoke("LoadScene", 1f);
+
+            if (GameController.gc.lives <= 0)
+            {
+                Invoke("LoadScene", 1f);
+            }
+            else
+            {
+                Invoke("LoadGameOver", 1f);
+                GameController.gc.lives = 3;
+            }
         }
     }
-    void loadScene()
+    void LoadGameOver()
     {
-        SceneManager.LoadScene("Fase 1");
+        SceneManager.LoadScene("Game Over");
+    }
+    
+    void LoadScene()
+    {
+        SceneManager.LoadScene("Level 1");
     }
 }

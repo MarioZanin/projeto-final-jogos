@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Destroyer : MonoBehaviour
 {
@@ -10,5 +11,9 @@ public class Destroyer : MonoBehaviour
         {
             collision.GetComponent<PlayerLife>().loseLife();
         }
+    }
+    void LoadScene()
+    {
+    SceneManager.LoadScene("Level 1");
     }
 }

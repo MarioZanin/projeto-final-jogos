@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -19,11 +20,16 @@ public class Enemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            LoadScene();
         }
     }
 
     void Die()
     {
         Destroy(gameObject);
+    }
+    void LoadScene()
+    {
+            SceneManager.LoadScene("Level 1");
     }
 }
